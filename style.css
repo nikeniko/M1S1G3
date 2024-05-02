@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.sottotitolo-logo {
+  display: flex;
+  justify-content: center;
+  color: green;
+  background-color: blanchedalmond;
+}
+.Titolo {
+  display: flex;
+  justify-content: center;
+  text-align-last: center;
+}
+.Focaccia-commento {
+  display: flex;
+  justify-content: center;
+}
+.foto-focaccia {
+  display: flex;
+  justify-content: center;
+}
