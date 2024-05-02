@@ -6,7 +6,8 @@
   display: flex;
   justify-content: center;
   color: green;
-  background-color: blanchedalmond;
+  border-top: solid burlywood;
+  background-color: rgba(247, 212, 159, 0.308);
 }
 .Titolo {
   display: flex;
@@ -18,6 +19,27 @@
   justify-content: center;
 }
 .foto-focaccia {
+  margin: auto;
   display: flex;
   justify-content: center;
+}
+.citazione {
+  color: brown;
+  text-align: center;
+}
+.ingredients {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Method {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.link-esterno {
+  text-align: center;
 }

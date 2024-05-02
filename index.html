@@ -7,10 +7,13 @@
     <title>Ricetta focaccia</title>
   </head>
   <body>
-    <container>
+    <container class="page">
       <header>
         <div class="logo">
           <img src="./assets/logo.png" alt="logo simply recipes" />
+          <source
+            src="./assets/Rick Astley - Never Gonna Give You Up (Official Music Video).mp4"
+          />
         </div>
         <div class="sottotitolo-logo">
           <p>
@@ -31,48 +34,62 @@
             </p>
           </article>
           <div class="foto-focaccia">
-            <img
-              src="./assets/focaccia.png"
-              alt="immagine di focaccia su un tagliere"
+            <video controls poster="./assets/focaccia.png">
+              <source
+                src="./assets/Rick Astley - Never Gonna Give You Up (Official Music Video).mp4"
+              />
+            </video>
             />
           </div>
-          <p>FEATURED IN: <br />Fresh Cranberry Recipe That Go Beyond Sauce</p>
+          <div class="citazione">
+            <p>
+              <strong>FEATURED IN:</strong> <br /><a href="#"
+                >Cranberry Recipe That Go Beyond Sauce</a
+              >
+            </p>
+          </div>
         </nav>
       </header>
       <main>
-        <p>Ingredients</p>
-        <ul>
-          For the focaccia:
-          <li>4 cups (500g) all-purpose flour</li>
-          <li>11/2 teaspoons instant yeast</li>
-          <li>11/2 teaspoon salt</li>
-          <li>13/4 cups (350g) lukewarm water</li>
-          <li>1/4 cup extra olive oil, plus more for the pan</li>
-        </ul>
-        <ul>
-          For the topping:
-          <li>3 medium yellow onions, thinly sliced</li>
-          <li>1 tablespoon balsamic vinegar</li>
-          <li>1-2 tablespoons onlive oil, for brushing on top</li>
-          <li>
-            10 ounces brie, cut into cubes <br />
-            (scrape rind off eith a paring knife if desired,<br />
-            thougth it's not necessary)
-          </li>
-          <li>11/2 cups fresh or frozen cranberries</li>
-        </ul>
+        <div class="ingredients">
+          <p>Ingredients</p>
+          <ul>
+            For the focaccia:
+            <li>4 cups (500g) all-purpose flour</li>
+            <li>11/2 teaspoons instant yeast</li>
+            <li>11/2 teaspoon salt</li>
+            <li>13/4 cups (350g) lukewarm water</li>
+            <li>1/4 cup extra olive oil, plus more for the pan</li>
+          </ul>
+          <ul>
+            For the topping:
+            <li>3 medium yellow onions, thinly sliced</li>
+            <li>1 tablespoon balsamic vinegar</li>
+            <li>1-2 tablespoons onlive oil, for brushing on top</li>
+            <li>
+              10 ounces brie, cut into cubes <br />
+              (scrape rind off eith a paring knife if desired,<br />
+              thougth it's not necessary)
+            </li>
+            <li>11/2 cups fresh or frozen cranberries</li>
+          </ul>
+        </div>
+        <div class="Method">
+          <p>Method</p>
+          <p>1. Make the focaccia dough</p>
 
-        <p>Method</p>
-        <p>1. Make the focaccia dough</p>
-        <p>
-          in a medium-sized mixing bowl,or in a stand mixer with a paddle
-          attachment, mix toghether all the dough ingredients until the flour is
-          fully absorbed. You don't need to actually knead the dough, though i
-          sometimes knead it a few times in the bowl when mixing by hand to
-          incorporate the last of the flour...
-        </p>
+          <p>
+            in a medium-sized mixing bowl,or in a stand mixer with a paddle
+            attachment, mix toghether all the dough ingredients until the flour
+            is fully absorbed. You don't need to actually knead the dough,
+            though i sometimes knead it a few times in the bowl when mixing by
+            hand to incorporate the last of the flour...
+          </p>
+        </div>
       </main>
     </container>
-    <footer><p>Read more on Simply recipes</p></footer>
+    <footer class="link-esterno">
+      <p>Read more on <a href="#">Simply recipes</a></p>
+    </footer>
   </body>
 </html>
