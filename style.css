@@ -1,3 +1,8 @@
+.freeman-regular {
+  font-family: "Freeman", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 .logo {
   display: flex;
   justify-content: center;
@@ -39,7 +44,7 @@
   flex-direction: column;
 }
 .Method {
-  width: 720px;
+  width: 740px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -51,9 +56,15 @@
 }
 #method-title {
   font-size: 30px;
-  width: 740px;
+  width: 720px;
   margin: 0 auto;
 }
 #ingredients-title {
   font-size: 30px;
+}
+.ingredients-line {
+  border-bottom: solid rgba(48, 219, 241, 0.438);
+}
+.method-line {
+  border-bottom: solid rgba(48, 219, 241, 0.438);
 }

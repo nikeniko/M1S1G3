@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Ricetta focaccia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Freeman&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="freeman-regular">
     <container>
       <header>
         <div class="logo">
@@ -52,10 +58,11 @@
       </header>
       <main>
         <div class="ingredients">
-          <p><strong id="ingredients-title">Ingredients</strong></p>
+          <div class="ingredients-line">
+            <p><strong id="ingredients-title">Ingredients</strong></p>
+          </div>
           <ul>
-            For the focaccia:
-
+            <strong>For the focaccia:</strong>
             <li>4 cups (500g) all-purpose flour</li>
             <li>11/2 teaspoons instant yeast</li>
             <li>11/2 teaspoon salt</li>
@@ -63,7 +70,7 @@
             <li>1/4 cup extra olive oil, plus more for the pan</li>
           </ul>
           <ul>
-            For the topping:
+            <strong>For the topping:</strong>
             <li>3 medium yellow onions, thinly sliced</li>
             <li>1 tablespoon balsamic vinegar</li>
             <li>1-2 tablespoons onlive oil, for brushing on top</li>
@@ -76,7 +83,9 @@
           </ul>
         </div>
         <div class="Method">
-          <p class id="method-title"><strong>Method</strong></p>
+          <div class="method-line">
+            <p class id="method-title"><strong>Method</strong></p>
+          </div>
 
           <p>1. Make the focaccia dough</p>
 
